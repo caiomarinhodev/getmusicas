@@ -1,0 +1,255 @@
+body {
+    overflow: scroll
+}
+
+.ui-li-has-thumb .ui-btn {
+    padding: 0 1em
+}
+
+.source {
+    color: #bbb
+}
+
+.ui-li-count {
+    font-size: 11px
+}
+
+.ad-label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 9px;
+    color: #828585;
+    white-space: nowrap
+}
+
+.ad-label .ad-line {
+    border-top: solid 1px #C4C4C4;
+    display: inline-block
+}
+
+.ad-label span {
+    padding: 0 5px 2px
+}
+
+@media all and (min-width: 350px) {
+    .logo {
+        max-height: 50px;
+        margin-top: 1px
+    }
+}
+
+@media all and (max-width: 350px) {
+    .logo {
+        max-height: 42px;
+        margin-top: 5px
+    }
+}
+
+.icon-download {
+    background-image: url(icon-download2.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 10px center !important
+}
+
+#h1-player, #h1-search {
+    height: 28px;
+    margin-top: 8px
+}
+
+#playSong, #playSongBack {
+    margin-top: 8px
+}
+
+@media all and (max-width: 720px) {
+    #h1-player span, #h1-search span {
+        display: none
+    }
+}
+
+@media all and (max-width: 480px) {
+    .mp3art {
+        display: none
+    }
+}
+
+@media all and (min-width: 480px) {
+    .mp3art {
+        float: left;
+        margin-top: 10px;
+        margin-right: 10px
+    }
+
+    .mp3art img {
+        width: 130px;
+        height: 130px;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 6px
+    }
+}
+
+.mp3info {
+    margin-top: 10px;
+    line-height: 30px;
+    font-size: 15px
+}
+
+.mp3info .ui-block-a {
+    width: 60px;
+    font-weight: 700
+}
+
+.mp3info .ui-block-b {
+    text-transform: capitalize
+}
+
+.mp3info .url {
+    text-transform: none;
+    color: #093;
+    white-space: nowrap
+}
+
+.myfooter {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 10px
+}
+
+.myfooter a {
+    text-decoration: none;
+    padding: 0 2px;
+    color: #3e3e3e !important
+}
+
+#tags ul {
+    margin: 0;
+    padding: .5em 10px;
+    text-align: center
+}
+
+#tags li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline
+}
+
+#tags li a {
+    text-decoration: none;
+    padding: 0 2px
+}
+
+.tag1 {
+    font-size: 65%
+}
+
+.tag2 {
+    font-size: 70%
+}
+
+.tag3 {
+    font-size: 100%
+}
+
+.tag4 {
+    font-size: 120%
+}
+
+.tag5 {
+    font-size: 135%
+}
+
+#tags h4 {
+    color: #4c9303;
+    margin: 0;
+    padding: 0
+}
+
+#recentRelated, #searchRelated {
+    margin-top: 32px
+}
+
+#player-ad320x50, #player-ad468x60, #player-ad728x90 {
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#search-ad320x50, #search-ad468x60, #search-ad728x90 {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media all and (max-width: 350px) {
+    #player-ad320x50, #search-ad320x50 {
+        position: relative;
+        left: -15px
+    }
+}
+
+@media all and (max-width: 1000px) {
+    #supp-ad1, #supp-ad1-player {
+        display: none
+    }
+}
+
+@media all and (max-width: 730px),(min-width: 1000px) {
+    #player-ad728x90, #search-ad728x90 {
+        display: none
+    }
+}
+
+@media all and (max-width: 470px),(min-width: 730px) {
+    #player-ad468x60, #search-ad468x60 {
+        display: none
+    }
+}
+
+@media all and (max-width: 280px),(min-width: 470px) {
+    #player-ad320x50, #search-ad320x50 {
+        display: none
+    }
+}
+
+@media all and (min-width: 1000px) {
+    #player, #search {
+        width: 1000px;
+        margin: 0 auto;
+        position: relative
+    }
+
+    .ui-header-fixed {
+        width: 1000px !important;
+        margin: 0 auto !important
+    }
+
+    #content-main, #content-main-player {
+        width: 620px;
+        margin-right: 10px;
+        margin-left: 10px;
+        float: left
+    }
+
+    #content-supp, #content-supp-player {
+        width: 300px;
+        float: right;
+        margin-top: 8px
+    }
+
+    .ui-mobile-viewport {
+        background-color: #ccc
+    }
+}
+
+#toTop {
+    z-index: 9999;
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background-image: url(up.png);
+    background-repeat: no-repeat
+}

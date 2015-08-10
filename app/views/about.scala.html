@@ -1,0 +1,126 @@
+@()
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="robots" content="noindex, nofollow">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Get Músicas</title>
+
+
+    <link rel="icon" type="image/png" href="/static/favicons/favicon.ico" sizes="32x32">
+
+    <!--<link rel="stylesheet" href="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />-->
+    <link rel="stylesheet" href="/static/themes/musicpleer_black.min.css" />
+    <link rel="stylesheet" href="/static/themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="//code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+
+    <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="/static/css/scrip.min.css?1.7" />
+
+    <!--<script src="/static/js/jquery.mobile-1.3.2.min.js"></script>-->
+    <script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <script>
+
+    </script>
+
+    <!-- Analytics -->
+
+
+</head>
+
+<body>
+
+<div data-role="page" id="search" data-theme="a">
+
+    <div data-role="header" data-theme="c">
+        <a data-role="none" href="/" data-ajax="false"><img src="/static/css/newcabec.png" class="logo" alt="" /></a>
+        <h1 id="h1-search"></h1>
+        <!--<a data-icon="back" data-inline="true" data-rel="back" id="playSongBack" class="ui-btn-right">Back</a>-->
+    </div>
+
+    <div class="ui-content" role="main">
+
+        <div data-role="collapsible-set">
+            <!--
+             <div data-role="collapsible">
+               <h3>About</h3>
+               <p>MusicPleer is a multi-platform search engine that lets you find music on the web, listen to and download it.
+               </p>
+            </div>
+            -->
+            <div id="info-contact" data-role="collapsible" data-collapsed="false">
+                <h3>Contato</h3>
+                <form action="#" method="post">
+                    <div data-role="fieldcontain">
+                        <label for="name">Nome</label><input data-mini="true" name="name" type="text" class="text-input" id="name" value=""/>
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="email">E-mail</label><input data-mini="true" name="email" type="text" class="text-input" id="email" value="" />
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="subject">Assunto</label><input data-mini="true" type="text" name="subject" class="text-input" id="subject" />
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="comment">Mensagem</label><textarea data-mini="true" name="text" class="text-input" id="comment" cols="0" rows="0"></textarea>
+                    </div>
+
+                    <div data-role="fieldcontain">
+                        <label for="send"></label><button id="send" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div data-role="collapsible">
+                <h3>Copyright</h3>
+                <h3>Copyright Infringement Notice</h3>
+                If you believe that your work has been copied in a way that constitutes copyright infringement, please provide MusicPleer the following information: (i) an electronic or physical signature of the person authorized to act on behalf of the owner of the copyright interest; (ii) a description of the copyrighted work that you claim has been infringed; (iii) a description of where the material that you claim is infringing is located on the site; (iv) your address, telephone number, and e-mail address; (v) a statement by you that you have a good faith belief that the disputed use is not authorized by the copyright owner, its agent, or the law; (vi) a statement by you, made under penalty of perjury, that the above information in your notice is accurate and that you are the copyright owner or authorized to act on the copyright owner's behalf. Any claims of copyright infringement on MusicPleer can be sent via our <a href="#" onclick='$( "#info-contact" ).collapsible( "expand" );'>contact form</a>.
+                </p>
+            </div>
+            <div data-role="collapsible">
+                <h3>Privacy</h3>
+                <h3>Privacy Policy</h3>
+                <p>
+                    The privacy of our visitors is important to us.
+                </p>
+                <p>
+                    We recognize that privacy of your personal information is important. Here is information on what types of personal information we receive and collect when you visit our site, and how we safeguard your information.  We never sell your personal information to third parties.
+                </p>
+                <p>
+                <h3>Log Files</h3>
+                </p>
+                <p>
+                    As with most other websites, we collect and use the data contained in log files. The information in the log files include your Internet Protocol address, browser type, browser language and the date and time of your request. The log files are kept for 30 days, after which they are deleted.
+                </p>
+                <p>
+                <h3>Cookies and Web Beacons</h3>
+                </p>
+                <p>
+                    We do use cookies to store information, such as your personal preferences when you visit our site.
+                </p>
+                <p>
+                    We also use third party advertisements to support our site.  Some of these advertisers may use technology such as cookies and web beacons when they advertise on our site, which will also send these advertisers information including your IP address, your ISP , the browser you used to visit our site, and in some cases, whether you have Flash installed.  This is generally used for geotargeting purposes or showing certain ads based on specific sites visited.
+                </p>
+                <p>
+                    We've implemented Google Analytics features based on Display Advertising (e.g., Remarketing, Google Display Network Impression Reporting, the DoubleClick Campaign Manager integration, or Google Analytics Demographics and Interest Reporting).
+                    Visitors can opt-out of Google Analytics for Display Advertising and customize Google Display Network ads using the <a target="_blank" href="https://www.google.com/settings/ads">Ads Settings</a>.
+                </P>
+                <p>
+                    You can choose to disable or selectively turn off our cookies or third-party cookies in your browser settings, or by managing preferences in programs such as Norton Internet Security.  However, this can affect how you are able to interact with our site as well as other websites.  This could include the inability to login to services or programs, such as logging into forums or accounts.
+                </p>
+            </div>
+        </div>
+    </div><!-- /content -->
+
+    <div class="myfooter">
+        &copy; Get Músicas
+    </div>
+
+</div>
+
+</body>
+</html>
